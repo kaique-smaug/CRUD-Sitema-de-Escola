@@ -18,7 +18,7 @@ class Inicial(customtkinter.CTk):
         self._aluno_instance = cadastro_aluno.Aluno()
         self._dados_conexao = (
             'Driver={SQL Server};'
-            'Server={LAPTOP-QLUA0QFC};'
+            'Server={your_server};'
             'Database=ALUNOS;'
         )
 
